@@ -22,3 +22,4 @@ const luoghi = ["svezia", "svizzera", "gran bretagna", "germania", "paradise"];
 
 //una lista di 5 news,
 const news = ["lorem", "lorem2", "lorem3", "lorem4", "lorem5"];
+

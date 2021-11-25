@@ -52,6 +52,21 @@
     filter: grayscale(100%);
 }
 
-.box-right.up, .box-right.down{
-    right: 50%;
+.arrow-up{
+    position: absolute;
+    top: 0;
+    right: 10%;
+    transform: translateX(50%);
+    font-size: 2em;
+    color: white;
 }
+
+.arrow-down{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    transform: translateX(50%);
+    font-size: 2em;
+    color: white;
+}
+
