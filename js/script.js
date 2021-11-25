@@ -13,3 +13,12 @@
 //-titolo e
 //-testo.
 // Allo stesso tempo nelle miniature l’immagine attiva dovrà apparire in evidenza rispetto alle altre.
+
+//una lista ordinata di 5 immagini,
+const immagini = ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg"];
+
+//una lista ordinata dei relativi 5 luoghi e
+const luoghi = ["svezia", "svizzera", "gran bretagna", "germania", "paradise"];
+
+//una lista di 5 news,
+const news = ["lorem", "lorem2", "lorem3", "lorem4", "lorem5"];
