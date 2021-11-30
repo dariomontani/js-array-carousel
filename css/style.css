@@ -19,19 +19,19 @@
     transform: translate(-50%, -50%);
 }
 
-.box-left{
+.box_left{
     width: 100%;
     height: 100%;
 }
 
-.box-left img{
+.box_left img{
     width: 80%;
     height: 100%;
     object-fit: cover;
     display: none;
 }
 
-.box-left img.active{
+.box_left img.active{
     display: block;
 }
 
@@ -41,7 +41,7 @@
     height: 100%;
 }
 
-.box-right{
+.box_right{
     position: absolute;
     right: 0;
     top: 0;
@@ -49,7 +49,7 @@
     height: 100%;
 }
 
-.box-right img{
+.box_right img{
     width: 100%;
     height: calc(100% / 5);
     object-fit: cover;
@@ -57,21 +57,28 @@
     filter: grayscale(100%);
 }
 
-.arrow-up{
+.box_right img.active{
+    border: 5px solid white;
+    filter: grayscale(0%);
+}
+
+.arrow_up{
     position: absolute;
     top: 0;
     right: 10%;
     transform: translateX(50%);
     font-size: 2em;
     color: white;
+    cursor: pointer;
 }
 
-.arrow-down{
+.arrow_down{
     position: absolute;
     bottom: 0;
     right: 10%;
     transform: translateX(50%);
     font-size: 2em;
     color: white;
+    cursor: pointer;
 }
 
